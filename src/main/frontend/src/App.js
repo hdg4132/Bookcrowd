@@ -6,6 +6,9 @@ import Rent from "./component/Rent";
 import axios from "axios";
 import Rent_admin from "./component/Rent_admin";
 import Rent_admin_canceled from "./component/Rent_admin_canceled";
+import UserChatPage from './component/realChat/UserChatPage';
+import RealChatPage from './component/realChat/RealChatPage';
+import ChatPage from "./component/realChat/ChatPage";
 
 function App() {
   // const [hello, setHello] = useState('')
@@ -25,6 +28,9 @@ function App() {
       <Route path="/rent" element={<Rent />} />
       <Route path="/rent_admin" element={<Rent_admin />} />
       <Route path="/rent_admin_canceled" element={<Rent_admin_canceled />} />
+      <Route path="/userchat" element={<UserChatPage />} />
+      <Route path="/realchat" element={<RealChatPage />} />
+      <Route path="/chatpage" element={<ChatPage />} />
     </Routes>
     </div>
   );
