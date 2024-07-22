@@ -51,11 +51,11 @@ const Header = () => {
         </nav>
         <nav id="navbar_2">
           <div className="nav_auth">
-            <Link to="#" className="nav_auth_line">
+            <Link to="/login" className="nav_auth_line">
               <span>로그인</span>
             </Link>
             <div className="nav_auth_bar" />
-            <Link to="#" className="nav_auth_line">
+            <Link to="/signup" className="nav_auth_line">
               <span>회원가입</span>
             </Link>
           </div>
