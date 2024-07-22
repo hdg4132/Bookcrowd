@@ -1,5 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
 import Rent from "./Rent";
+import KeepingList from "./BookKeeping/KeepingList";
+import KeepingRegister from "./BookKeeping/KeepingRegister";
+import KeepingItem from "./BookKeeping/KeepingItem";
+import AdminRegisterList from "./admin/AdminRegisterList";
+import AdminRegisterBook from "./admin/AdminRegisterBook";
 
 function Main() {
   const user = {
@@ -30,6 +35,26 @@ function Main() {
       <br />
       <Link to="/rent_admin">
         대여관리로 <Outlet />
+      </Link>
+      <br />
+      <Link to="/books">
+        유저키핑리스트로 <Outlet />
+      </Link>
+      <br />
+      <Link to="/register">
+        키핑신청으로 <Outlet />
+      </Link>
+      <br />
+      <Link to="/book/:id">
+        아이템상세피이지로 <Outlet />
+      </Link>
+      <br />
+      <Link to="/admin/list">
+        관리자페이지로 <Outlet />
+      </Link>
+      <br />
+      <Link to="/admin/register">
+        관리자작성페이지로 <Outlet />
       </Link>
     </div>
   );
