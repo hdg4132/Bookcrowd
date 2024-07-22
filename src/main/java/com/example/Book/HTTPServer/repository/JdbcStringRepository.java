@@ -20,9 +20,9 @@ import java.util.Objects;
 public class JdbcStringRepository {
 
     public Connection connectJdbc() throws SQLException {
-        String url = "jdbc:mysql://127.0.0.3:3306/my_java";
+        String url = "jdbc:mysql://127.0.0.3:3306/jdbc";
         String username = "root";
-        String password = "1234";
+        String password = "jaexhae03!2";
         return DriverManager.getConnection(url
                 , username
                 , password);

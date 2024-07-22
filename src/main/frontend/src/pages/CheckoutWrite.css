@@ -1,0 +1,12 @@
+.write_checkout p{
+    margin-bottom: 20px;}
+.write_checkout p label{
+    display: inline-block; width: 120px;}
+.write_checkout p input{
+    display: inline-block;
+    height: 28px;
+    line-height:28px; border:1px solid #ccc;
+}
+.write_checkout p textarea{
+    
+}

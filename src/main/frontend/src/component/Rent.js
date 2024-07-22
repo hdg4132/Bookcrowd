@@ -3,6 +3,7 @@ import "./Rent.css";
 import axios from "axios";
 import { getCurrentDateTime } from "../util/util";
 import { IoMdHeartEmpty } from "react-icons/io";
+import SubBanner from "./SubBanner";
 
 function Rent() {
   const currentTime = getCurrentDateTime();
@@ -70,9 +71,7 @@ function Rent() {
 
   return (
     <div className="Rent">
-      <div className="header">
-        <h1>책 대여하기</h1>
-      </div>
+      <SubBanner page_name={'checkout'} title_kr={'책 대여하기'} title_en={"Checkout Book"}/>
       <div className="bookInfo">
         <div className="book_img">
           <img src={book1.bookimgurl} />
