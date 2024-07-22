@@ -23,6 +23,7 @@ const Rent_item = ({ id, date, bookname, ISBN13, username }) => {
     axios
       .put(`api/api/rent_admin/${id}`, {
         rentId: id,
+        ISBN13: ISBN13,
         approval: "3",
         cause: cause
       })
