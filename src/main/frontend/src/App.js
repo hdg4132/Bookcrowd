@@ -22,22 +22,20 @@ function App() {
 
 
 
-  return (
-      <Router>
-          <Header />
-      <Routes>
+    return (
         <div className="App">
-          <Route path="/" element={<Main/>}/>
-          <Route path="/rent" element={<Rent/>}/>
-          <Route path="/rent_admin" element={<Rent_admin/>}/>
-          <Route path="/rent_admin_canceled" element={<Rent_admin_canceled/>}/>
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/Mypage" element={<Mypage />} />
+            <Header />
+            <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/rent" element={<Rent />} />
+                <Route path="/rent_admin" element={<Rent_admin />} />
+                <Route path="/rent_admin_canceled" element={<Rent_admin_canceled />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/mypage" element={<Mypage />} />
+            </Routes>
         </div>
-      </Routes>
-      </Router>
-);
+    );
 }
 
 export default App;
