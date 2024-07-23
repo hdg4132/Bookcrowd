@@ -1,0 +1,39 @@
+.list_body {
+    margin-top: 5px;
+    /* border-top: 1px solid black; */
+}
+.list_header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.list_title {
+    width: 70%;
+    text-align: center;
+}
+.list_content {
+    width: 70%;
+    margin-left: 20px;
+}
+.list_info .writer {
+    margin-left: 20px;
+}
+.list_info .date {
+    margin-left: 130px;
+}
+.community_pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.community_pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #ccc;
+    border-radius: 4px;
+}
