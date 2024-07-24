@@ -22,7 +22,7 @@ public class JdbcStringRepository {
     public Connection connectJdbc() throws SQLException {
         String url = "jdbc:mysql://127.0.0.3:3306/jdbc";
         String username = "root";
-        String password = "jaexhae03!2";
+        String password = "1234";
         return DriverManager.getConnection(url
                 , username
                 , password);

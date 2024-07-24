@@ -1,7 +1,7 @@
 const CheckoutItem =()=>{
     return(
         <li>
-            <a href="checkout/1">
+            <a href="rent/11">
                 <div className='list_img'>
                     <img src="" />
                 </div>

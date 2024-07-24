@@ -26,7 +26,7 @@
 .adm_nav li a{font-size:16px;
     line-height: 40px;}
     
-.adm_con{width:calc(100% - 300px); margin-left: 300px; padding: 30px 15px;}
+.adm_con{width:calc(100% - 300px); margin-left: 300px; padding: 45px 30px;}
 
 .adm_header{padding: 9px 15px; display: flex; align-items: center; justify-content: flex-end; box-shadow:0 3px 15px rgba(0,0,0,.15)}
 .adm_header .btn_home{background: #FE7070; color:#fff; padding: 13px 30px; border-radius:5px}
