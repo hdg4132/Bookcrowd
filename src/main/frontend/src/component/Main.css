@@ -3,7 +3,8 @@
   width: 100%;
   height: 960px;
 }
-.main_banner .logo, .bottom_banner_content {
+.main_banner .logo,
+.bottom_banner_content {
   text-align: center;
 }
 .main_banner .main_banner_text {
@@ -101,13 +102,10 @@
   width: 1813px;
   overflow: hidden;
 }
-.book_list_box > ul > div {
+.book_list_box_item {
   display: flex;
 }
-.section_2 .book_list_box ul {
-  display: flex;
-}
-.section_2 .book_list_box_item {
+.book_list_box_item img {
   width: 320px;
   height: 472px;
 }

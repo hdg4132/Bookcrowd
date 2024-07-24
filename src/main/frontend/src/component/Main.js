@@ -1,27 +1,13 @@
-import { Link, Outlet } from "react-router-dom";
-import Rent from "./Rent";
+import React from "react";
+import "./Main.css";
+import bookLogo from "../assets/MainLogo.png";
+import img1 from "../assets/Main1.png";
+import img2 from "../assets/Main2.png";
+import MainBookList from "./MainBookList";
+import MainCommunityList from "./MainCommunityList";
+import { useRef } from "react";
 
 function Main() {
-  // const user = {
-  //   id: 1,
-  //   name: "한만서",
-  //   phone: "010-3791-1290",
-  // };
-
-  // localStorage.setItem("userInfo", JSON.stringify(user));
-
-  // const book = {
-  //   bookname: "마음을 맡기는 보관가게 2",
-  //   author: "오야마 준코",
-  //   publisher: "모모",
-  //   date: "2024년 07월 17일",
-  //   ISBN13: "9791198809964",
-  //   ISBN9: "1198809965",
-  //   bookimgurl: "https://image.yes24.com/goods/129085141/XL",
-  // };
-
-  // localStorage.setItem("book", JSON.stringify(book));
-
   const scrollDown = useRef(null);
 
   const clickDown = () => {
@@ -30,18 +16,7 @@ function Main() {
     }
   };
 
-
-
   return (
-    // <div className="App">
-    //   <Link to="/rent">
-    //     대여로 <Outlet />
-    //   </Link>
-    //   <br />
-    //   <Link to="/rent_admin">
-    //     대여관리로 <Outlet />
-    //   </Link>
-    // </div>
     <div>
       <div className="main_banner">
         <div className="logo">
@@ -104,15 +79,6 @@ function Main() {
                 <ul>
                   <div className="book_list_box_original">
                     <MainBookList />
-                    <MainBookList />
-                    <MainBookList />
-                    <MainBookList />
-                  </div>
-                  <div className="book_list_box_clone">
-                    <MainBookList />
-                    <MainBookList />
-                    <MainBookList />
-                    <MainBookList />
                   </div>
                 </ul>
               </div>
@@ -129,10 +95,6 @@ function Main() {
                 </div>
               </div>
               <div className="community_content">
-                <MainCommunityList />
-                <MainCommunityList />
-                <MainCommunityList />
-                <MainCommunityList />
                 <MainCommunityList />
               </div>
             </div>
