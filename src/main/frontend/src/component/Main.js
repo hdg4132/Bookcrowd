@@ -75,17 +75,11 @@ function Main() {
                   </a>
                 </div>
               </div>
-              <div className="book_list_box">
-                <ul>
-                  <div className="book_list_box_original">
-                    <MainBookList />
-                  </div>
-                </ul>
-              </div>
+              <MainBookList />
             </div>
           </section>
           <section className="section_3">
-            <div className="community_list">
+            <div>
               <div className="main_list_text">
                 <h4>커뮤니티</h4>
                 <div>
