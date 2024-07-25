@@ -32,3 +32,6 @@
 .swiper-button-prev:after, .swiper-button-next:after {
   font-size: 15px !important;
 }
+/* .swiper-wrapper {
+  transition-timing-function: linear;
+} */
